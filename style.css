@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    user-select: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: gilroy;
+}
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  a {
+    color: #fff;
+  }
+  a:hover {
+    color: #123456;
+  }
+  
+  .right-part {
+    background-image: url("https://images.unsplash.com/photo-1574936145840-28808d77a0b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .fs-text-500 {
+    font-weight: 500;
+  }
+  .fs-bg-blue-transparent {
+    background: rgba(0, 60, 95);
+  }
+  .fs-brand {
+    font-family: "Comforter Brush", cursive;
+  }
+  .fs-countdown-number {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  @media (min-width: 768px) {
+    .fs-countdown-number {
+      width: 5rem;
+      height: 5rem;
+    }
+    .fs-mr--105 {
+      margin-right: -10.5rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .fs-countdown-number {
+      width: 6rem;
+      height: 6rem;
+    }
+  }/*# sourceMappingURL=style.css.map */
